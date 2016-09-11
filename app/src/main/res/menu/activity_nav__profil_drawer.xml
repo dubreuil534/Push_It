@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="Accueil" />
+
+        <item
+            android:id="@+id/challenge"
+            android:icon="@drawable/challenge_2_icon"
+            android:title="Challenge" />
+        <item
+            android:id="@+id/seances"
+            android:icon="@drawable/seance_icon"
+            android:title="Seances" />
+        <item
+            android:id="@+id/statistique"
+            android:icon="@drawable/statistique_icon"
+            android:title="Statistique" />
+
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Parametres" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share1"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Facebook" />
+
+            <item
+                android:id="@+id/nav_share2"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Twitter" />
+
+        </menu>
+    </item>
+
+</menu>

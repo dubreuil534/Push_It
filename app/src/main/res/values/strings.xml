@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Push-It</string>
+    <string name="facebook_app_id">1204051399615978</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+    <string name="title_activity_profil_navigation">profilNavigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nav__profil">Nav_Profil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

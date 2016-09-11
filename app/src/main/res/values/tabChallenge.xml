@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name ="listChallenge">
+    <item>1 Minute Challenge</item>
+    <item>2 Minutes Challenge</item>
+    <item>Push-Up Sur 1 Main</item>
+    <item>Tenir Votre Position Avec Flexion</item>
+    <item>Push-Up En Diamand en 1 minute</item>
+    <item>100 Push-Ups Sans Arrêt (pas de temps limite)</item>
+    <item>Push-up Large En 1 Minute</item>
+    <item>Push-Up Sur Les Poings</item>
+    <item>Push-Up Sur Les Doigts</item>
+    <item>Push-Up Clap!</item>
+</string-array>
+    <string-array name="listeDescription">
+        <item>Faire 75 Push-Ups en une minute</item>
+        <item>Faire 125 Push-Ups en deux minutes</item>
+        <item>Faire 25 Push-Ups sur une main</item>
+        <item>Tenir pendant 2 minutes en position flexion</item>
+        <item>Faire 75 Push-Up avec les mains rapprochées</item>
+        <item>Faire 100 Pushs-Up sans temps limite</item>
+        <item>Faire 75 Push-Ups avec les bras plus écartés que la normale pendant 1 minute</item>
+        <item>Faire 75 Push-ups sur les poings</item>
+        <item>Faire 50 Push-Ups sur les doigts</item>
+        <item>Faire 60 Push Ups. Lorsque vous arrivez en haut, vous devez tapper le mur avec une main ou tapper la main de votre ami(e)</item>
+    </string-array>
+</resources>

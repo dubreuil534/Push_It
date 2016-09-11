@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.push_it.isi.push_it.fragment_profil_user.Setting">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/profilpic"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Informations Personnelles:"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="#adaeb3"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1c1c1f">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mail2" />
+
+        <TextView
+            android:id="@+id/courrielSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#adaeb3"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1c1c1f">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/username" />
+
+        <TextView
+            android:id="@+id/pseudoSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#adaeb3"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1c1c1f">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lock2" />
+
+        <TextView
+            android:id="@+id/mdpSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="#adaeb3"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1c1c1f">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/logo_push" />
+
+        <TextView
+            android:id="@+id/objectifSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#adaeb3"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1c1c1f">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/logo_push" />
+
+        <TextView
+            android:id="@+id/nbPushSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#adaeb3"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1c1c1f">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sexe" />
+
+        <TextView
+            android:id="@+id/sexeSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#adaeb3"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addUserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#0078d7"
+        android:hint="MODIFIER"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+</LinearLayout>
+
